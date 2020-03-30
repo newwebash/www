@@ -1,3 +1,4 @@
+from __future__ import print_function
 from users.models import *
 from grants.models import *
 from django.utils.text import slugify
@@ -7,13 +8,11 @@ import markdown
 
 # Speaker JSON dumper
 
-full = Resource.objects.get(name='30 minute talk')
-thunder = Resource.objects.get(name='Thunderstorm talk')
-panel = Resource.objects.get(name='Panel')
+full = Resource.objects.get(program__slug='write-docs-prague-2018', name__icontains='talk')
 
 to_json = []
 
-all_talks = full.allocations.all() | thunder.allocations.all()
+all_talks = full.allocations.all()
 
 use_email = False
 use_json = True
@@ -27,14 +26,14 @@ if use_json:
         to_json.append({
             'slug': slugify(app.name),
             'name': app.name,
-            'title': app.answers.get(question__question='Talk Title').answer.encode('utf-8'),
+            'title': app.title.encode('utf-8'),
             'abstract': markdown.markdown(unicode(
-                app.answers.get(question__question='Talk Abstract').answer.encode('utf-8'), 'utf-8'
+                app.abstract.encode('utf-8'), 'utf-8'
             )),
             'details': '',
         })
 
-    print json.dumps(to_json, indent=4)
+    print(json.dumps(to_json, indent=4))
 
 # Speaker List in email
 
@@ -42,8 +41,8 @@ if use_email:
 
     for source in all_talks:
         app = source.applicant
-        print "* {name} - [{title}](/conf/na/2016/speakers/#speaker-{slug})".format(**{
+        print("* {name} - [{title}](/conf/na/2016/speakers/#speaker-{slug})".format(**{
             'slug': slugify(app.name),
             'name': app.name,
             'title': app.answers.get(question__question='Talk Title').answer.encode('utf-8'),
-        })
+        }))

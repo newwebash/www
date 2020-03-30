@@ -1,11 +1,19 @@
-2017 Conferences
+2020 Conferences
 ----------------
 
-- :doc:`Write the Docs Portland </conf/na/2017/index>`, May 14-16, **Portland, Oregon**
-- :doc:`Write the Docs Prague </conf/eu/2017/index>`, September 10-12, **Prague, Czech Republic**
+- :doc:`Write the Docs Portland 2020 </conf/portland/2020/index>`, August 9-11, **Portland, Oregon**
+- :doc:`Write the Docs Prague 2020 </conf/prague/2020/index>`, September 13-15, **Prague, Czech Republic**
 
-Look at all of these happy people at our Portland conference in 2016!
+Proposals
+~~~~~~~~~
 
-.. raw:: html
+We are looking at doing another event in 2020, on or close to the east coast of the US.
+We have a :doc:`Call for Venues </conf/cfp/east-2020>` open for it currently.
 
-  <a data-flickr-embed="true"  href="https://www.flickr.com/photos/writethedocs/27252578210/in/album-72157669467964085/" title="20160524171117"><img src="https://c3.staticflickr.com/8/7409/27252578210_271a1886ef_z.jpg" width="640" height="400" alt="20160524171117"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+2019 Conferences
+----------------
+
+- :doc:`Write the Docs Portland </conf/portland/2019/index>`, May 19-21, **Portland, Oregon**
+- :doc:`Write the Docs Vilnius </conf/vilnius/2019/index>`, June 2-3, **Vilnius, Lithuania**
+- :doc:`Write the Docs Prague </conf/prague/2019/index>`, September 15-17, **Prague, Czech Republic**
+- :doc:`Write the Docs Australia </conf/australia/2019/index>`, November 14-15, **Sydney, Australia**

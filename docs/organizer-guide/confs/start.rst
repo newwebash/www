@@ -28,7 +28,7 @@ starting your own Write the Docs event:
   intentional.
 
   However, to ensure some basic consistency between the different events in
-  philisophy and structure, newcomers will be assigned a mentor from one of our
+  philosophy and structure, newcomers will be assigned a mentor from one of our
   long-time organizers who can provide guidance and answer any questions that might
   arise.
 
@@ -40,7 +40,7 @@ starting your own Write the Docs event:
   to the people who spend time and money coming to our events, and to the people
   who spend hours preparing talks and tutorials.
 
-`Reach out to us <mailto:conf@writethedocs.org>`__, and we will help as much as
+`Reach out to us <mailto:support@writethedocs.org>`__, and we will help as much as
 we can and you want -- we want more Write the Docs events to happen all over the world.
 
 Credits
